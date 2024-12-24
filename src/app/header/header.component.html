@@ -1,0 +1,6 @@
+<header>
+    <h1>{{title | lowercase}}</h1>
+    <nav>
+       <a routerLink={{item}} *ngFor="let item of navElements">{{item}}</a>
+    </nav>
+</header>
